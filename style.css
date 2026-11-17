@@ -1,0 +1,82 @@
+.archivo-black-regular {
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+body {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #fff3ea;
+}
+
+nav {
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    /*distributes children evenly*/
+    justify-content: center;
+    /*distributes everything evenly*/
+    padding: 50px;
+    gap: 40px;
+    /*adds a gap between children*/
+}
+
+
+nav a {
+    /*this changes the nav style, the a represents everything in the nav*/
+    color: #f16667;
+    text-decoration: none;
+    /*takes off te underline*/
+    padding-bottom: 5px;
+
+    /*need to add this to nav a also bc broswer needs to know what 2 change from*/
+    transition: border-bottom 0.3s ease;
+    white-space: nowrap;
+    /*makes it so nav dosent go into two lines */
+}
+
+nav span {
+    color: #f16667;
+
+}
+
+h1 {
+    font-family: "Fraunces", serif;
+    color: #f16667;
+    padding: 20px;
+}
+
+.gallery {
+    /*flexbox for images*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.gallery img {
+    width: 30%;
+}
+
+.logo {
+    width: 200px;
+    margin-top: 50px;
+}
+
+p {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: large;
+    word-spacing: 5px;
+}
+
+.box {
+    max-width: 800px;
+    border: 2px solid black;
+    padding: 20px;
+    margin: 0 auto;
+   margin-bottom: 100px;
+}
